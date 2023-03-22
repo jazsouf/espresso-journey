@@ -1,0 +1,16 @@
+html {
+	/* width and height include padding and border of elements*/
+  box-sizing: border-box;
+	
+	/* 0.0625 * 16px = 1 (i.e., 1rem = 1px) */
+  font-size: 6.25%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  /* resolves to 16px */
+  font-size: 16rem;
+  background-color: #221511;
+}
