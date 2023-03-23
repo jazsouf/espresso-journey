@@ -31,6 +31,7 @@ body {
 .header-logo {
     display: flex;
     max-width: 50rem;
+    padding-left: 10rem;
 }
 
 .main-image, .logo {
@@ -69,7 +70,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 50rem;
+    padding: 50rem 55rem;
     gap: 16rem;
 
 }
